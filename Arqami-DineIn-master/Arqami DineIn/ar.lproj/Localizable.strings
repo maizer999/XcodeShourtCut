@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Arqami DineIn
+
+  Created by Waleed Jebreen on 9/27/17.
+  Copyright © 2017 Mozaicis. All rights reserved.
+*/
+
+ok = "موافق";
+appname = "أرقامي";
+errorMessage = "حدث خطأ ما, الرجاء المحاولة لاحقاً";
+yes = "نعم";
+cancel = "إلغاء";
+deleteOrderItems = "حذف جميع الأصناف ؟";
+deleteItem = "هل تريد حذف هذا الصنف ؟";
+noAddOnsAvailable = "لا يوجد إضافات متاحة.";
+sureSendOrder = "هل تريد إرسال الطلب ؟";
+internetConnection = "الإتصال بالإنترنت";
+connectionMessage = "الرجاء التأكد من الإتصال بالإنترنت والمحاولة لاحقاً.";
+
+cantOpenOrders = "نعتذر، لا يمكنك الدخول.";
+cantDeleteOrderItem = "نعتذر، لا يمكنك حذف الطلب.";
+cantSaveOrder = "نعتذر، لا يمكنك حفظ الطلب.";

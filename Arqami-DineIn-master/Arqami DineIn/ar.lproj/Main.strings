@@ -1,0 +1,216 @@
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "0PA-yh-Dn9"; */
+"0PA-yh-Dn9.text" = "الإسم";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "0rq-QG-7ba"; */
+"0rq-QG-7ba.placeholder" = "إسم المستخدم";
+
+/* Class = "UINavigationItem"; title = "Added Table Items"; ObjectID = "1dy-yI-gQH"; */
+"1dy-yI-gQH.title" = "الأصناف المضافة الى الطاولة";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "1sb-AT-xl5"; */
+"1sb-AT-xl5.text" = "السعر";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "1uL-Sk-ZVz"; */
+"1uL-Sk-ZVz.text" = "1";
+
+/* Class = "UINavigationItem"; title = "LogIn"; ObjectID = "2d9-As-AYp"; */
+"2d9-As-AYp.title" = "تسجيل الدخول";
+
+/* Class = "UIViewController"; title = "Added Table Items"; ObjectID = "3gP-6D-7zI"; */
+"3gP-6D-7zI.title" = "الأصناف المضافة الى الطاولة";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "3gU-bK-rXi"; */
+"3gU-bK-rXi.text" = "الإسم";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "4Sw-bg-3BG"; */
+"4Sw-bg-3BG.placeholder" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Table Ordered Items"; ObjectID = "5dl-bi-Foa"; */
+"5dl-bi-Foa.text" = "الأصناف المطلوبة على الطاولة";
+
+/* Class = "UILabel"; text = "Quantity :"; ObjectID = "6AG-sT-qVv"; */
+"6AG-sT-qVv.text" = "الكمية :";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6GS-XL-74W"; */
+"6GS-XL-74W.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6kK-pq-xHZ"; */
+"6kK-pq-xHZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Item Add-Ons :"; ObjectID = "9MQ-rO-SBx"; */
+"9MQ-rO-SBx.text" = "إضافات الصنف :";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "ABM-oV-gW8"; */
+"ABM-oV-gW8.text" = "الإسم";
+
+/* Class = "UILabel"; text = "Total Price :"; ObjectID = "AVz-GE-fve"; */
+"AVz-GE-fve.text" = "السعر النهائي :";
+
+/* Class = "UILabel"; text = "Discount"; ObjectID = "AXT-dT-uR6"; */
+"AXT-dT-uR6.text" = "الخصم";
+
+/* Class = "UINavigationItem"; title = "Select Store"; ObjectID = "AbN-Jj-cg4"; */
+"AbN-Jj-cg4.title" = "إختر الفرع";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "E20-mh-NdF"; */
+"E20-mh-NdF.text" = "0.0";
+
+/* Class = "UILabel"; text = "  No Add Ons Available."; ObjectID = "EmP-Bu-29H"; */
+"EmP-Bu-29H.text" = " لا يوجد إضافات.";
+
+/* Class = "UILabel"; text = "Total Price :"; ObjectID = "Hcr-mh-VbZ"; */
+"Hcr-mh-VbZ.text" = "السعر النهائي :";
+
+/* Class = "UILabel"; text = "Add-Ons"; ObjectID = "Hp1-Ch-KwY"; */
+"Hp1-Ch-KwY.text" = "الإضافات";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IrQ-lK-rEA"; */
+"IrQ-lK-rEA.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Delete Items"; ObjectID = "JF4-WL-Dk0"; */
+"JF4-WL-Dk0.normalTitle" = "حذف الأصناف";
+
+/* Class = "UINavigationItem"; title = "Order Info"; ObjectID = "JN0-M3-ZEt"; */
+"JN0-M3-ZEt.title" = "معلومات الطلب";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "JPe-em-ekN"; */
+"JPe-em-ekN.text" = "0";
+
+/* Class = "UILabel"; text = "Quantity"; ObjectID = "KUh-pS-t5m"; */
+"KUh-pS-t5m.text" = "الكمية";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "O1E-bZ-N9N"; */
+"O1E-bZ-N9N.text" = "المجموع النهائي";
+
+/* Class = "UITextField"; placeholder = "Enter URL"; ObjectID = "OF7-FI-56S"; */
+"OF7-FI-56S.placeholder" = "أدخل الرابط";
+
+/* Class = "UILabel"; text = "No Add-Ons Available."; ObjectID = "OxF-99-Wze"; */
+"OxF-99-Wze.text" = "لا يوجد إضافات متاحة.";
+
+/* Class = "UILabel"; text = "Item Total"; ObjectID = "RK8-Rk-yt7"; */
+"RK8-Rk-yt7.text" = "مجموع الصنف";
+
+/* Class = "UILabel"; text = "Item Name"; ObjectID = "SIj-XX-FXH"; */
+"SIj-XX-FXH.text" = "إسم الصنف";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "UDK-18-TJB"; */
+"UDK-18-TJB.text" = "الإسم";
+
+/* Class = "UILabel"; text = "Invoice Discount"; ObjectID = "WQS-fi-Btf"; */
+"WQS-fi-Btf.text" = "خصم الفاتورة";
+
+/* Class = "UILabel"; text = "Quantity :"; ObjectID = "Wa7-gK-tWq"; */
+"Wa7-gK-tWq.text" = "الكمية :";
+
+/* Class = "UILabel"; text = "No Ordered Items On This Table ."; ObjectID = "Xa2-rT-q6W"; */
+"Xa2-rT-q6W.text" = "لا يوجد أصناف مضافة الى الطاولة .";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "XdG-c8-iWL"; */
+"XdG-c8-iWL.text" = "0.0";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "Xdg-0h-ta2"; */
+"Xdg-0h-ta2.text" = "1";
+
+/* Class = "UILabel"; text = "10.0"; ObjectID = "YXu-Xt-VjB"; */
+"YXu-Xt-VjB.text" = "10.0";
+
+/* Class = "UILabel"; text = "Item Name"; ObjectID = "Zex-AE-cgx"; */
+"Zex-AE-cgx.text" = "إسم الصنف";
+
+/* Class = "UIButton"; normalTitle = "Save URL"; ObjectID = "aag-8r-Z8q"; */
+"aag-8r-Z8q.normalTitle" = "حفظ الرابط";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "ab7-6G-hwN"; */
+"ab7-6G-hwN.text" = "الإسم";
+
+/* Class = "UINavigationItem"; title = "Select Hall And Table"; ObjectID = "fB3-Lc-kr4"; */
+"fB3-Lc-kr4.title" = "إختر القاعة و الطاولة";
+
+/* Class = "UINavigationItem"; title = "Select Hall And Table"; ObjectID = "G4n-rz-m7m"; */
+"G4n-rz-m7m.title" = "إختر القاعة و الطاولة";
+
+/* Class = "UILabel"; text = "  No Add Ons Available."; ObjectID = "fFC-A5-Une"; */
+"fFC-A5-Une.text" = " لا يوجد إضافات متاحة .";
+
+/* Class = "UILabel"; text = "No Ordered Items On This Table ."; ObjectID = "fGW-rK-9Np"; */
+"fGW-rK-9Np.text" = "لا يوجد أصناف مطلوبة على الطاولة .";
+
+/* Class = "UILabel"; text = "Item Add-Ons :"; ObjectID = "fqG-AW-U5H"; */
+"fqG-AW-U5H.text" = "إضافات الصنف :";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gEi-Vx-CNe"; */
+"gEi-Vx-CNe.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Add To Table"; ObjectID = "gnL-Xr-5bf"; */
+"gnL-Xr-5bf.normalTitle" = "أضف الى الطاولة";
+
+/* Class = "UIButton"; normalTitle = "Delete Order"; ObjectID = "hQ3-ZU-Eud"; */
+"hQ3-ZU-Eud.normalTitle" = "حذف الطلب";
+
+/* Class = "UIButton"; normalTitle = "Send Order"; ObjectID = "jJi-5o-nGA"; */
+"jJi-5o-nGA.normalTitle" = "إرسال الطلب";
+
+/* Class = "UIViewController"; title = "Order Info"; ObjectID = "k9J-o9-5nM"; */
+"k9J-o9-5nM.title" = "معلومات الطلب";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "kV0-Gf-Nao"; */
+"kV0-Gf-Nao.text" = "1";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "kif-2V-5Ll"; */
+"kif-2V-5Ll.text" = "0.0";
+
+/* Class = "UILabel"; text = "10.0"; ObjectID = "koC-qa-6Mw"; */
+"koC-qa-6Mw.text" = "10.0";
+
+/* Class = "UILabel"; text = "Sub Total"; ObjectID = "mHI-KY-Vob"; */
+"mHI-KY-Vob.text" = "المجموع";
+
+/* Class = "UISearchBar"; placeholder = "Search"; ObjectID = "quL-yT-PUu"; */
+"quL-yT-PUu.placeholder" = "بحث";
+
+/* Class = "UILabel"; text = "Other Instructions"; ObjectID = "xod-F1-mBY"; */
+"xod-F1-mBY.text" = "ملاحظات أخرى";
+
+/* Class = "UIButton"; normalTitle = "Other Instructions"; ObjectID = "kx9-e2-i7B"; */
+"kx9-e2-i7B.normalTitle" = "ملاحظات أخرى";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "rHg-lE-NbI"; */
+"rHg-lE-NbI.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UINavigationItem"; title = "LogIn"; ObjectID = "ry2-zn-UpN"; */
+"ry2-zn-UpN.title" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "sRK-Ax-QaB"; */
+"sRK-Ax-QaB.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "u7Q-66-PPk"; */
+"u7Q-66-PPk.text" = "المجموع النهائي";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "uOC-2o-T62"; */
+"uOC-2o-T62.text" = "0.0";
+
+/* Class = "UILabel"; text = "0.0"; ObjectID = "xAS-L8-r4z"; */
+"xAS-L8-r4z.text" = "0.0";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "z6f-E9-lnL"; */
+"z6f-E9-lnL.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "Sub Total"; ObjectID = "mHI-KY-Vob"; */
+"mHI-KY-Vob.text" = "السعر الاجمالي";
+
+/* Class = "UILabel"; text = "Total Tax"; ObjectID = "nHV-H7-ni6"; */
+"nHV-H7-ni6.text"  = "مجموع الضريبه";
+/* Class = "UILabel"; text = "Total Tax"; ObjectID = "O1E-bZ-N9N"; */
+"O1E-bZ-N9N.text" = "مجموع الضريبه";
+
+
+/* Class = "UILabel"; text = "Subtotal"; ObjectID = "DOj-3C-AhI"; */
+"DOj-3C-AhI.text" = "السعر الاجمالي";
+
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "UyD-4j-1Gt"; */
+"UyD-4j-1Gt.text" = "المجموع النهائي";
+
+

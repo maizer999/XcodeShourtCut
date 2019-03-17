@@ -1,0 +1,6 @@
+framework module Pods_Arqami_DineIn {
+  umbrella header "Pods-Arqami DineIn-umbrella.h"
+
+  export *
+  module * { export * }
+}
