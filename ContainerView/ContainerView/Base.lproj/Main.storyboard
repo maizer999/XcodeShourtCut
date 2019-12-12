@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7cV-Y9-yRA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ContainerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Photo Comment View Controller-->
+        <scene sceneID="4k6-vz-ghU">
+            <objects>
+                <viewController storyboardIdentifier="PhotoCommentViewController" automaticallyAdjustsScrollViewInsets="NO" id="7cV-Y9-yRA" customClass="PhotoCommentViewController" customModule="PhotoScroll" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uLF-O4-fSf"/>
+                        <viewControllerLayoutGuide type="bottom" id="k2C-Jd-QOt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MaR-wG-2xk">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zby-qD-PmV">
+                                <rect key="frame" x="0.0" y="20" width="340" height="780"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9j-G5-21e" userLabel="Container View">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="500"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo1" translatesAutoresizingMaskIntoConstraints="NO" id="BqI-Ga-Dt4">
+                                                <rect key="frame" x="0.0" y="0.0" width="340" height="300"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="eYj-Kq-KMt"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Bbx-vy-TX6" appends="YES" id="OJL-rU-BZG"/>
+                                                </connections>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What name fits me best?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fX5-Lm-Vl0">
+                                                <rect key="frame" x="75" y="300" width="190" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yZR-7R-FiB">
+                                                <rect key="frame" x="8" y="350.5" width="324" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="hideKeyboard:" destination="7cV-Y9-yRA" eventType="primaryActionTriggered" id="mK0-1E-MWm"/>
+                                                </connections>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="fX5-Lm-Vl0" firstAttribute="centerX" secondItem="e9j-G5-21e" secondAttribute="centerX" id="4Uo-sq-Qjh"/>
+                                            <constraint firstItem="fX5-Lm-Vl0" firstAttribute="top" secondItem="BqI-Ga-Dt4" secondAttribute="bottom" id="68V-pv-9dc"/>
+                                            <constraint firstItem="fX5-Lm-Vl0" firstAttribute="leading" secondItem="e9j-G5-21e" secondAttribute="leading" id="8BA-qA-Kzx"/>
+                                            <constraint firstItem="yZR-7R-FiB" firstAttribute="leading" secondItem="e9j-G5-21e" secondAttribute="leading" constant="8" id="JSB-sK-SXp"/>
+                                            <constraint firstAttribute="height" constant="500" id="L2K-Qn-9Kh"/>
+                                            <constraint firstItem="yZR-7R-FiB" firstAttribute="top" secondItem="fX5-Lm-Vl0" secondAttribute="bottom" constant="30" id="P9n-OI-HQY"/>
+                                            <constraint firstItem="BqI-Ga-Dt4" firstAttribute="top" secondItem="e9j-G5-21e" secondAttribute="top" id="nIt-sT-Cm4"/>
+                                            <constraint firstAttribute="trailing" secondItem="BqI-Ga-Dt4" secondAttribute="trailing" id="qQ4-r7-KvV"/>
+                                            <constraint firstAttribute="trailing" secondItem="yZR-7R-FiB" secondAttribute="trailing" constant="8" id="rci-mf-7yS"/>
+                                            <constraint firstItem="BqI-Ga-Dt4" firstAttribute="leading" secondItem="e9j-G5-21e" secondAttribute="leading" id="s5L-Md-bXN"/>
+                                            <constraint firstAttribute="trailing" secondItem="fX5-Lm-Vl0" secondAttribute="trailing" id="zMe-ps-I8a"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="8BA-qA-Kzx"/>
+                                                <exclude reference="zMe-ps-I8a"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="e9j-G5-21e" secondAttribute="trailing" id="5sU-iQ-ViG"/>
+                                    <constraint firstAttribute="bottom" secondItem="e9j-G5-21e" secondAttribute="bottom" id="IVa-vF-Zas"/>
+                                    <constraint firstItem="e9j-G5-21e" firstAttribute="top" secondItem="zby-qD-PmV" secondAttribute="top" id="T2F-K9-6LM"/>
+                                    <constraint firstItem="e9j-G5-21e" firstAttribute="leading" secondItem="zby-qD-PmV" secondAttribute="leading" id="hnb-FG-DL5"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="zby-qD-PmV" firstAttribute="leading" secondItem="MaR-wG-2xk" secondAttribute="leading" id="99b-Z9-USX"/>
+                            <constraint firstItem="zby-qD-PmV" firstAttribute="top" secondItem="uLF-O4-fSf" secondAttribute="bottom" id="ED8-zO-ljz"/>
+                            <constraint firstItem="k2C-Jd-QOt" firstAttribute="top" secondItem="zby-qD-PmV" secondAttribute="bottom" id="Qck-bt-39U"/>
+                            <constraint firstItem="e9j-G5-21e" firstAttribute="width" secondItem="MaR-wG-2xk" secondAttribute="width" id="kUE-7S-g3H"/>
+                            <constraint firstAttribute="trailing" secondItem="zby-qD-PmV" secondAttribute="trailing" id="s1D-z5-Sdv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bMO-GI-EBS"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="IN9-tb-Fk1" appends="YES" id="FfL-2O-CRZ"/>
+                        </connections>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="340" height="800"/>
+                    <connections>
+                        <outlet property="imageView" destination="BqI-Ga-Dt4" id="UpQ-KL-2Sb"/>
+                        <outlet property="nameTextField" destination="yZR-7R-FiB" id="POh-3x-JVY"/>
+                        <outlet property="scrollView" destination="zby-qD-PmV" id="keG-xq-udA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3GT-OT-EZt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="IN9-tb-Fk1">
+                    <connections>
+                        <action selector="hideKeyboard:" destination="7cV-Y9-yRA" id="ewO-el-Gv3"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Bbx-vy-TX6">
+                    <connections>
+                        <action selector="openZoomingController:" destination="7cV-Y9-yRA" id="G5w-fW-NCf"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-477" y="774"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="photo1" width="16" height="16"/>
+    </resources>
+</document>
