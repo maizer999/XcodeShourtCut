@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name" translatable="false">One App</string>
+
+    <string name="splash_logo">One App</string>
+    <string name="splash_detail_01">THE MOBILE</string>
+    <string name="splash_detail_02">POINT OF SALE</string>
+    <string name="splash_detail_03">App</string>
+
+    <string name="sign_welcome">Welcome to</string>
+    <string name="sign_login">Login</string>
+    <string name="sign_register">Signup</string>
+    <string name="sign_forgot"><u>Forgot Password?</u></string>
+    <string name="sign_signin">SIGN IN</string>
+    <string name="sign_entry"><u>Skip Login</u></string>
+    <string name="sign_next">NEXT</string>
+    <string name="sign_record"><u>Skip Signup</u></string>
+    <string name="sign_phone_number">Phone Number</string>
+    <string name="sign_password">Password</string>
+    <string name="sign_no_account">You don\'t have account?</string>
+    <string name="sing_register_here"><u>Sign up</u></string>
+    <string name="sign_store_name">Store Name</string>
+    <string name="sign_register_detail">Please enter your information.</string>
+    <string name="sign_have_account">Already have account?</string>
+    <string name="sign_go_login"><u>Login</u></string>
+    <string name="sign_verify_phone_detail">We sent SMS to your phone.</string>
+    <string name="sign_verify_code_detail">Please enter verification code below.</string>
+    <string name="sign_send_again"><u>Resend the code.</u></string>
+    <string name="sign_wrong_code">Wrong Code.</string>
+    <string name="sign_end_record">FINISH</string>
+
+    <string name="success_thank_you">Thank you!</string>
+    <string name="ctrl_previous_title">Transactions history</string>
+    <string name="ctrl_seg_photo">Scan Barcode</string>
+    <string name="ctrl_seg_manual">Enter Manually</string>
+    <string name="ctrl_settings">Settings</string>
+    <string name="success_detail">Signup Completed\nSuccessfully</string>
+    <string name="setting_change_password">Change password</string>
+    <string name="setting_change_location">Change location</string>
+    <string name="setting_connect_us">Connect us</string>
+    <string name="setting_follow_us">Follow us</string>
+    <string name="setting_rate_us">Rate us</string>
+    <string name="setting_logout">Logout</string>
+    <string name="wrong_detail">Sorry, No record for this product.\nYou can fill fields below to add it.</string>
+    <string name="wrong_barcode">Barcode</string>
+    <string name="wrong_product_name">Product Name</string>
+    <string name="wrong_price">Price</string>
+    <string name="wrong_save">Save</string>
+
+    <string name="ctrl_language">Language</string>
+    <string name="ctrl_arabic" translatable="false">العربية</string>
+    <string name="ctrl_english" translatable="false">English</string>
+
+
+</resources>

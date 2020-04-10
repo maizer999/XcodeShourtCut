@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">One App</string>
+
+    <string name="ctrl_previous_title">العمليات السابقة</string>
+    <string name="ctrl_seg_manual">إدخال يدوي</string>
+    <string name="ctrl_seg_photo">تصوير الكود</string>
+    <string name="ctrl_settings">الإعدادات</string>
+
+    <string name="setting_change_location">تغيير الموقع</string>
+    <string name="setting_change_password">تغيير كلمة السر</string>
+    <string name="setting_connect_us">تواصل معنا</string>
+    <string name="setting_follow_us">تابعنا</string>
+    <string name="setting_rate_us">قيم التطبيق</string>
+    <string name="setting_logout">الخروج</string>
+
+    <string name="splash_logo">One App</string>
+    <string name="splash_detail_01">تطبيق نقطة</string>
+    <string name="splash_detail_02">البيع المتنقة</string>
+    <string name="splash_detail_03">App</string>
+
+    <string name="sign_welcome">مرحباً بك في</string>
+    <string name="sign_login">التسجيل</string>
+    <string name="sign_register">الدخول</string>
+    <string name="sign_forgot"><u>نسيت كلمة السر</u></string>
+    <string name="sign_signin">تسجيل الدخول</string>
+    <string name="sign_entry"><u>تخطي الدخول</u></string>
+    <string name="sign_next">التالي</string>
+    <string name="sign_record"><u>تخطي التسجيل</u></string>
+    <string name="sign_phone_number">رقم الهاتف</string>
+    <string name="sign_password">رمز الدخول</string>
+    <string name="sign_no_account">ليس لديك حساب؟</string>
+    <string name="sing_register_here"><u>سجل من هنا</u></string>
+    <string name="sign_store_name">اسم المتجر</string>
+    <string name="sign_register_detail">الرجاء إدخال المعلومات الخاصة بك.</string>
+    <string name="sign_have_account">لديك حساب</string>
+    <string name="sign_go_login"><u>الذهاب إلى شاشة الدخول</u></string>
+    <string name="sign_verify_phone_detail">تم إرسال رسالة نصية إلى رقمك</string>
+    <string name="sign_verify_code_detail">الرجاء إدخال رمز التحقق أدناه</string>
+    <string name="sign_send_again"><u>إرسال الرمز مرة أخرى</u></string>
+    <string name="sign_wrong_code">رمز خاطئ.</string>
+    <string name="sign_end_record">إنهاء التسجيل</string>
+
+    <string name="success_thank_you">شكرا لك!</string>
+    <string name="success_detail">تمت عملية التسجيل\nبنجاح</string>
+
+    <string name="wrong_detail">نعتذر!  .. لا يوجد سجل لهذا المنتج\nيمكنك ملئ الحقول أدناه لحفظ المنتج.</string>
+    <string name="wrong_barcode">الرمز الشريطي</string>
+    <string name="wrong_product_name">اسم المنتج</string>
+    <string name="wrong_price">السعر</string>
+    <string name="wrong_save">حفظ</string>
+
+    <string name="ctrl_language">اللغة</string>
+
+</resources>

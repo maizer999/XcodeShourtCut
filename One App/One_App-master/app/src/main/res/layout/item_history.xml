@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="@color/colorMainWhite"
+        app:cardCornerRadius="7dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/lbl_history_price"
+                android:layout_marginStart="16dp"
+                style="@style/txt.blue.29"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_width="90dp"
+                android:text="21.50"/>
+
+            <TextView
+                android:id="@+id/lbl_history_time"
+                style="@style/txt.gray.14"
+                android:fontFamily="@font/roboto_medium"
+                android:lineSpacingMultiplier="1.2"
+                android:layout_width="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="8 Items - 2:08 PM\n8 Match 2020" />
+
+            <ImageView
+                android:id="@+id/img_history_delete"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="12sp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_trush"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

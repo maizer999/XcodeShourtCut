@@ -1,0 +1,128 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorMainBlue</item>
+
+        <item name="otpViewStyle">@style/OtpWidget.OtpView</item>
+    </style>
+
+    <style name="txt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="txt.white">
+        <item name="android:textColor">@color/colorTextWhite</item>
+    </style>
+
+    <style name="txt.white.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt.white.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt.white.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="txt.white.21">
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="txt.white.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="txt.blue">
+        <item name="android:textColor">@color/colorTextBlue</item>
+    </style>
+
+    <style name="txt.blue.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt.blue.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt.blue.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="txt.blue.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="txt.blue.26">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="txt.blue.29">
+        <item name="android:textSize">29sp</item>
+    </style>
+
+    <style name="txt.blue.65">
+        <item name="android:textSize">65sp</item>
+    </style>
+
+    <style name="txt.gray">
+        <item name="android:textColor">@color/colorTextGray</item>
+    </style>
+
+    <style name="txt.gray.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt.gray.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt.gray.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="txt.gray.25">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="txt.gray.36">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="txt.lightgray">
+        <item name="android:textColor">@color/colorTextLightGray</item>
+    </style>
+
+    <style name="txt.lightgray.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt.darkgray">
+        <item name="android:textColor">@color/colorTextDarkGray</item>
+    </style>
+
+    <style name="txt.darkgray.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="MEditText" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="boxBackgroundColor">@color/colorMainWhite</item>
+        <item name="boxStrokeColor">@color/colorMainBlue</item>
+        <item name="endIconTint">@color/colorTextBlack</item>
+        <item name="hintTextColor">@color/colorMainBlue</item>
+        <item name="helperTextTextColor">@color/colorMainRed</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:textColor">@color/colorTextLightGray</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

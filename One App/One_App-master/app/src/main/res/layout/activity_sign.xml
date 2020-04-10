@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBack"
+    tools:context=".activity.SignActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="812"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="150"
+            android:background="@color/colorMainBlue"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="812"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="90"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_sign_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back_white"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/txt.white.20"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/sign_welcome"/>
+
+            <TextView
+                style="@style/txt.white.20"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/app_name" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back_white"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="600"
+            android:elevation="2dp"
+            app:cardBackgroundColor="@color/colorMainWhite"
+            app:cardCornerRadius="12sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="600"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="60">
+
+                    <LinearLayout
+                        android:id="@+id/llt_tab_login"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:onClick="onClickTabLogin">
+
+                        <TextView
+                            android:text="@string/sign_login"
+                            style="@style/txt.blue.18"
+                            android:fontFamily="@font/roboto_medium"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llt_tab_register"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/btn_grad_right_12"
+                        android:onClick="onClickTabRegister">
+
+                        <TextView
+                            style="@style/txt.lightgray.18"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="@string/sign_register" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llt_sign"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="540"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="470">
+
+                        <LinearLayout
+                            android:id="@+id/llt_sign_login"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:visibility="visible"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_marginStart="24dp"
+                                android:layout_marginEnd="24dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="410"
+                                android:orientation="vertical"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="2"/>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/tll_login_phone"
+                                    style="@style/MEditText"
+                                    app:startIconTint="@color/colorMainBlue"
+                                    app:startIconDrawable="@drawable/ic_phone"
+                                    android:hint="@string/sign_phone_number">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/txt_login_phone"
+                                        android:textColor="@color/colorTextGray"
+                                        android:inputType="textCapWords"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/tll_login_pass"
+                                    android:layout_marginTop="8dp"
+                                    style="@style/MEditText"
+                                    app:startIconTint="@color/colorMainBlue"
+                                    app:startIconDrawable="@drawable/ic_lock"
+                                    app:endIconTint="@color/colorMainBlue"
+                                    app:endIconMode="password_toggle"
+                                    android:hint="@string/sign_password">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/txt_login_pass"
+                                        android:textColor="@color/colorTextGray"
+                                        android:inputType="textPassword"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"/>
+
+                                </com.google.android.material.textfield.TextInputLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"/>
+
+                                <TextView
+                                    style="@style/txt.darkgray.18"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:text="@string/sign_no_account" />
+
+                                <TextView
+                                    style="@style/txt.blue.22"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:text="@string/sing_register_here"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="60"
+                                android:gravity="center">
+
+                                <TextView
+                                    style="@style/txt.blue.22"
+                                    android:fontFamily="@font/roboto_medium"
+                                    android:text="@string/sign_forgot"/>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llt_sign_register"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginEnd="24dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:visibility="visible"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                style="@style/txt.gray.18"
+                                android:text="@string/sign_register_detail" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/tll_register_phone"
+                                style="@style/MEditText"
+                                app:startIconTint="@color/colorMainBlue"
+                                app:startIconDrawable="@drawable/ic_phone"
+                                android:hint="@string/sign_phone_number">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/txt_register_phone"
+                                    android:textColor="@color/colorTextGray"
+                                    android:inputType="textCapWords"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/tll_register_store"
+                                android:layout_marginTop="8dp"
+                                style="@style/MEditText"
+                                app:startIconTint="@color/colorMainBlue"
+                                app:startIconDrawable="@drawable/ic_store"
+                                android:hint="@string/sign_store_name">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/txt_register_store"
+                                    android:textColor="@color/colorTextGray"
+                                    android:inputType="textCapWords"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/tll_register_pass"
+                                android:layout_marginTop="8dp"
+                                style="@style/MEditText"
+                                app:startIconTint="@color/colorMainBlue"
+                                app:startIconDrawable="@drawable/ic_lock"
+                                android:hint="@string/sign_password">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/txt_register_pass"
+                                    android:textColor="@color/colorTextGray"
+                                    android:inputType="textCapWords"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                style="@style/txt.darkgray.18"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="@string/sign_have_account" />
+
+                            <TextView
+                                style="@style/txt.blue.22"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="@string/sign_go_login"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="@color/colorMainBlue"
+                        android:gravity="center"
+                        android:layout_weight="70"
+                        android:onClick="onClickLltSign">
+
+                        <TextView
+                            android:id="@+id/lbl_sign"
+                            style="@style/txt.white.21"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="@string/sign_signin"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llt_sign_verify"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="540"
+                    android:visibility="gone"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"/>
+
+                    <TextView
+                        style="@style/txt.gray.18"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/sign_verify_phone_detail"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layoutDirection="ltr">
+
+                        <TextView
+                            android:id="@+id/lbl_verify_phone"
+                            style="@style/txt.blue.26"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="079987559" />
+
+                        <EditText
+                            android:id="@+id/txt_verify_phone"
+                            style="@style/txt.blue.26"
+                            android:fontFamily="@font/roboto_medium"
+                            android:visibility="gone"
+                            android:background="@null"
+                            android:text="079987559"/>
+
+                        <ImageView
+                            android:layout_marginStart="24dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_edit"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <TextView
+                        style="@style/txt.gray.18"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/sign_verify_code_detail"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="4"/>
+
+                    <com.mukesh.OtpView
+                        android:id="@+id/otp_sign_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:itemBackground="@color/colorMainWhite"
+                        android:textColor="@color/colorTextHint"
+                        android:textSize="28sp"
+                        app:itemCount="4"
+                        app:itemSpacing="8dp"
+                        app:lineColor="@color/colorTextHint"
+                        app:viewType="line"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="4"/>
+
+                    <TextView
+                        style="@style/txt.blue.22"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="@string/sign_send_again"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="4"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llt_sign_verify_success"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="540"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/ic_check_green" />
+
+                    <com.mukesh.OtpView
+                        android:id="@+id/otp_sign_success"
+                        android:layout_marginTop="@dimen/txt_60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:itemBackground="@color/colorMainWhite"
+                        android:fontFamily="@font/roboto_medium"
+                        android:textColor="@color/colorTextBlue"
+                        android:text="1234"
+                        android:textSize="47sp"
+                        app:itemCount="4"
+                        app:itemSpacing="8dp"
+                        app:lineColor="@color/colorMainBlue"
+                        app:viewType="line"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llt_sign_end_record"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="540"
+                    android:weightSum="540"
+                    android:visibility="visible"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="470">
+
+                        <ImageView
+                            android:layout_margin="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_map" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="@color/colorMainGreen"
+                        android:gravity="center"
+                        android:layout_weight="70"
+                        android:onClick="onClickLltEndRecord">
+
+                        <TextView
+                            android:id="@+id/lbl_sign_end"
+                            style="@style/txt.white.21"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="@string/sign_end_record"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="120"
+            android:gravity="center"
+            android:onClick="onClickLltSkip">
+
+            <TextView
+                android:id="@+id/lbl_sign_skip"
+                style="@style/txt.blue.22"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/sign_entry"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
