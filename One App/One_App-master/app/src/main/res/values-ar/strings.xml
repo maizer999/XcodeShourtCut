@@ -52,4 +52,12 @@
 
     <string name="ctrl_language">اللغة</string>
 
+
+    <string name="progress_detail" >Connecting in server...</string>
+    <string name="alert_server_error_detail" translatable="false">Server Error. Please try it again.</string>
+    <string name="alert_error_internet_detail" translatable="false">Internet Error. Please check your internet.</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+
+
 </resources>

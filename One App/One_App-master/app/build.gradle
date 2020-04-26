@@ -17,7 +17,12 @@ android {
         sourceCompatibility 1.8
     }
     buildTypes {
+        debug {
+            manifestPlaceholders = [usesCleartextTraffic:"true"]
+         }
+
         release {
+            manifestPlaceholders = [usesCleartextTraffic:"false"]
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
@@ -32,7 +37,7 @@ dependencies {
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-
+    implementation 'com.android.volley:volley:1.1.1'
     implementation "com.google.android.material:material:1.2.0-alpha02"
     implementation 'com.github.mukeshsolanki:android-otpview-pinview:2.1.0'
 //    implementation 'me.dm7.barcodescanner:zbar:1.9.13'
@@ -40,5 +45,17 @@ dependencies {
     implementation 'com.github.softotalss:barcodescanner:1.0.2'
     implementation 'com.daimajia.easing:library:2.0@aar'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.squareup.okhttp3:okhttp:3.0.1'
+
+    implementation files('libs/okhttputils-2_6_2.jar')
+
+//    implementation 'com.squareup.okhttp3:okhttp:3.0.1'
+//    implementation 'utils.okhttp:okhttputils:2.4.9'
+//    implementation files('libs/okhttputils-2_6_2.jar')
+
 
 }

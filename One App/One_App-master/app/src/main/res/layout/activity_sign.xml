@@ -161,7 +161,7 @@
                                     android:hint="@string/sign_phone_number">
 
                                     <com.google.android.material.textfield.TextInputEditText
-                                        android:id="@+id/txt_login_phone"
+                                        android:id="@+id/phone_edit_text"
                                         android:textColor="@color/colorTextGray"
                                         android:inputType="textCapWords"
                                         android:layout_width="match_parent"
@@ -180,7 +180,7 @@
                                     android:hint="@string/sign_password">
 
                                     <com.google.android.material.textfield.TextInputEditText
-                                        android:id="@+id/txt_login_pass"
+                                        android:id="@+id/store_name_edit_text"
                                         android:textColor="@color/colorTextGray"
                                         android:inputType="textPassword"
                                         android:layout_width="match_parent"
@@ -288,7 +288,7 @@
                                 android:hint="@string/sign_password">
 
                                 <com.google.android.material.textfield.TextInputEditText
-                                    android:id="@+id/txt_register_pass"
+                                    android:id="@+id/password_edit_text"
                                     android:textColor="@color/colorTextGray"
                                     android:inputType="textCapWords"
                                     android:layout_width="match_parent"
@@ -327,8 +327,8 @@
                         android:layout_weight="70"
                         android:onClick="onClickLltSign">
 
-                        <TextView
-                            android:id="@+id/lbl_sign"
+                        <Button
+                            android:id="@+id/sign_button"
                             style="@style/txt.white.21"
                             android:fontFamily="@font/roboto_medium"
                             android:text="@string/sign_signin"/>
